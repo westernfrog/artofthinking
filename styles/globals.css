@@ -21,7 +21,7 @@ body {
 }
 @media (max-width: 992px) {
   .bg-nav {
-    background: radial-gradient(circle at top, #acacac70, #acacac);
+    background: radial-gradient(circle at top, #eeeeee70, #eee);
     backdrop-filter: none;
   }
 }
@@ -57,4 +57,7 @@ h6 {
   background-image: url("https://images.unsplash.com/photo-1463740839922-2d3b7e426a56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1250&q=80");
   background-position: 180%;
   background-repeat: no-repeat;
+}
+.bg-green {
+  background: radial-gradient(circle at right, #b5d5c5, #b5d5c570);
 }

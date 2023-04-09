@@ -21,43 +21,40 @@ export default function Header() {
             </button>
 
             <div
-              className="offcanvas offcanvas-start bg-grey d-lg-none py-1"
+              className="offcanvas offcanvas-start bg-green d-lg-none"
               tabIndex="-1"
               id="offcanvasExample"
               aria-labelledby="offcanvasExampleLabel"
               style={{
                 maxWidth: "270px",
+                borderRight: 0,
               }}
             >
               <div className="offcanvas-header">
                 <button
-                  className="navbar-toggler border-0 px-0"
+                  className="navbar-toggler border-0 px-0 ms-auto"
                   type="button"
                   data-bs-dismiss="offcanvas"
                   aria-label="Close"
                   style={{ boxShadow: "none" }}
                 >
-                  <i className="fa-solid fa-xmark text-light"></i>
+                  <i className="fa-solid fa-xmark text-beige"></i>
                 </button>
               </div>
-              <div className="offcanvas-body bg-dark">
+              <div className="offcanvas-body my-5">
                 <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
                   {[
                     { href: "/", label: "Home" },
                     { href: "/about", label: "About" },
-                    { href: "/projects", label: "Projects" },
+                    { href: "/#blog", label: "Blog" },
+                    { href: "/#projects", label: "Projects" },
                   ].map(({ href, label }, index) => (
                     <li className="nav-item" key={index}>
-                      <Link className="nav-link" href={href}>
+                      <Link className="nav-link fs-1" href={href}>
                         {label}
                       </Link>
                     </li>
                   ))}
-                  <li className="nav-item">
-                    <Link className="nav-link" href={"/contact"}>
-                      Contact
-                    </Link>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -80,19 +77,19 @@ export default function Header() {
                   </li>
                 ))}
               </ul>
-            </div>
-            <div className="row d-flex align-items-center gap-3 my-2">
-              <div className="col">
-                <i className="fa-solid fa-envelope"></i>
-              </div>
-              <div className="col">
-                <i className="fa-brands fa-instagram"></i>
-              </div>
-              <div className="col">
-                <i className="fa-brands fa-facebook"></i>
-              </div>
-              <div className="col">
-                <i className="fa-solid fa-phone"></i>
+              <div className="row d-flex align-items-center gap-3 my-2">
+                <div className="col">
+                  <i className="fa-solid fa-envelope"></i>
+                </div>
+                <div className="col">
+                  <i className="fa-brands fa-instagram"></i>
+                </div>
+                <div className="col">
+                  <i className="fa-brands fa-facebook"></i>
+                </div>
+                <div className="col">
+                  <i className="fa-solid fa-phone"></i>
+                </div>
               </div>
             </div>
           </div>
