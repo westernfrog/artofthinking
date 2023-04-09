@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Art of Thinking Gray</title>
+        <title>The Art of Thinking Gray</title>
         <meta name="description" content="Art of Thinking Gray" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

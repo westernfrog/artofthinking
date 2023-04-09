@@ -7,7 +7,7 @@ export default function Header() {
         <nav className="container navbar navbar-expand-lg navbar-dark">
           <div className="container-fluid px-0 d-flex align-items-center">
             <Link className="navbar-brand" href="/">
-              <h5 className="mb-0">ArtOfThinkingGray.</h5>
+              <h5 className="mb-0">TheArtOfThinkingGray.</h5>
             </Link>
             <button
               className="navbar-toggler border-0 px-0"
