@@ -1,7 +1,7 @@
 export default function Overview(params) {
   return (
     <>
-      <div className="row mt-5">
+      <div className="row mt-5 mt-lg-0">
         <p className="fs-9 text-uppercase mb-3 opacity-75">
           Build a better tomorrow
         </p>
