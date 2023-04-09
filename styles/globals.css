@@ -25,9 +25,9 @@ body {
     backdrop-filter: none;
   }
 }
-.fs-7,
-p {
+.fs-7 {
   font-size: 14px;
+  letter-spacing: 1px;
 }
 .fs-8 {
   font-size: 12px;
@@ -37,7 +37,7 @@ p {
   letter-spacing: 2px;
 }
 p {
-  font-family: "Gambetta", serif;
+  font-family: "General Sans", sans-serif;
 }
 h1,
 h2,
