@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className="bg-overview">
-        <div className="container py-5">
+        <div className="container my-0 my-lg-5 py-5">
           <Overview />
         </div>
       </div>
