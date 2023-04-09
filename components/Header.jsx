@@ -38,7 +38,7 @@ export default function Header() {
                   aria-label="Close"
                   style={{ boxShadow: "none" }}
                 >
-                  <i className="fa-solid fa-xmark text-beige"></i>
+                  <i className="fa-solid fa-xmark text-black"></i>
                 </button>
               </div>
               <div className="offcanvas-body my-5">

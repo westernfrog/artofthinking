@@ -11,7 +11,7 @@ body {
 .nav-link {
   font-size: 14px;
   font-family: "Gambetta", serif;
-  color: #090909 !important;
+  color: #2a3b25 !important;
   margin: 0 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -48,7 +48,7 @@ h6 {
   font-family: "Gambetta", serif;
 }
 .text-beige {
-  color: #090909;
+  color: #2a3b25;
 }
 .text-general {
   font-family: "General Sans", sans-serif;
