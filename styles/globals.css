@@ -73,3 +73,37 @@ h6 {
   transform: scale(0.98);
   transition: transform 100ms ease-in-out;
 }
+.image1 {
+  background-image: url("/images/img1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image2 {
+  background-image: url("/images/img2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.image3 {
+  background-image: url("/images/img3.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.image4 {
+  background-image: url("/images/img4.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.image5 {
+  background-image: url("/images/img5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.image6 {
+  background-image: url("/images/img6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}

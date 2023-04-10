@@ -55,7 +55,7 @@ export default function Header() {
                     { href: "/", label: "Home" },
                     { href: "/blog", label: "Blog" },
                     { href: "/#projects", label: "Projects" },
-                    { href: "/gallery", label: "Gallery" },
+                    { href: "/#gallery", label: "Gallery" },
                   ].map(({ href, label }, index) => (
                     <li className="nav-item" key={index}>
                       <Link className="nav-link btn-shrink fs-3" href={href}>
@@ -85,7 +85,7 @@ export default function Header() {
                   { href: "/", label: "Home" },
                   { href: "/blog", label: "Blog" },
                   { href: "/#projects", label: "Projects" },
-                  { href: "/gallery", label: "Gallery" },
+                  { href: "/#gallery", label: "Gallery" },
                 ].map(({ href, label }, index) => (
                   <li className="nav-item my-2" key={index}>
                     <Link className="nav-link btn-shrink" href={href}>
