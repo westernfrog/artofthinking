@@ -59,11 +59,21 @@ export default function Header() {
                   ].map(({ href, label }, index) => (
                     <li className="nav-item" key={index}>
                       <Link className="nav-link btn-shrink fs-3" href={href}>
+                        <span className="text-general fs-6">0{index + 1}</span>{" "}
                         {label}
                       </Link>
                     </li>
                   ))}
                 </ul>
+                <div className="border border-dark btn-shrink">
+                  <button
+                    className="btn text-general px-4"
+                    style={{ boxShadow: "none" }}
+                    onClick={handleMail}
+                  >
+                    Lets Connect!
+                  </button>
+                </div>
               </div>
             </div>
             <div

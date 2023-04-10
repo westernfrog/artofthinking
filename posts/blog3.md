@@ -1,5 +1,5 @@
 ---
-title: "Expressive Arts Therapies- A Deep Analysis"
+title: "Expressive Arts Therapies - A Deep Analysis"
 desc: "Expressive Arts Therapies (EAT) is a form of therapy that incorporates various art forms to support individuals in enhancing their emotional, social, cognitive, and physical well-being. This therapy modality includes music therapy, art therapy, drama therapy, dance/movement therapy, and play therapy. EAT has a rich history dating back to the 1940s and 50s when artists and therapists began to work together to explore the benefits of using the creative arts as a tool for therapy."
 index: "3"
 ---
