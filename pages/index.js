@@ -34,7 +34,7 @@ export default function Home() {
           <Overview />
         </div>
       </div>
-      <div className="container my-4 my-lg-0">
+      <div className="container my-4 my-lg-0" id="projects">
         <About />
         <hr />
         <Projects />
