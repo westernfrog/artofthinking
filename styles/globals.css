@@ -80,7 +80,7 @@ h6 {
 }
 .image2 {
   background-image: url("/images/img2.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .image3 {
