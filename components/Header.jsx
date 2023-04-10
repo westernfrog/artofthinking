@@ -1,6 +1,14 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Header() {
+  const router = useRouter();
+
+  const handleMail = async () => {
+    router.push({
+      pathname: "mailto:pragyaservices1997@gmail.com",
+    });
+  };
   return (
     <>
       <div className="sticky-top bg-nav">
@@ -50,7 +58,7 @@ export default function Header() {
                     { href: "/gallery", label: "Gallery" },
                   ].map(({ href, label }, index) => (
                     <li className="nav-item" key={index}>
-                      <Link className="nav-link fs-3" href={href}>
+                      <Link className="nav-link btn-shrink fs-3" href={href}>
                         {label}
                       </Link>
                     </li>
@@ -70,22 +78,20 @@ export default function Header() {
                   { href: "/gallery", label: "Gallery" },
                 ].map(({ href, label }, index) => (
                   <li className="nav-item my-2" key={index}>
-                    <Link className="nav-link" href={href}>
+                    <Link className="nav-link btn-shrink" href={href}>
                       {label}
                     </Link>
                   </li>
                 ))}
               </ul>
-              <div className="row d-flex align-items-center gap-3 my-2">
-                <div className="col opacity-75">
-                  <box-icon type="logo" name="gmail"></box-icon>
-                </div>
-                <div className="col opacity-75">
-                  <box-icon type="logo" name="instagram"></box-icon>
-                </div>
-                <div className="col opacity-75">
-                  <box-icon name="phone"></box-icon>
-                </div>
+              <div className="border border-dark btn-shrink">
+                <button
+                  className="btn text-general px-4"
+                  style={{ boxShadow: "none" }}
+                  onClick={handleMail}
+                >
+                  Lets Connect!
+                </button>
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Footer from "@/components/Footer";
+import Gallery from "@/components/Gallery";
 import Overview from "@/components/Overview";
 import Projects from "@/components/Projects";
 import Head from "next/head";
@@ -38,6 +39,8 @@ export default function Home() {
         <About />
         <hr />
         <Projects />
+
+        <Gallery />
       </div>
       <div className="container">
         <Footer />

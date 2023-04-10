@@ -4,7 +4,7 @@ export default function Projects(params) {
   return (
     <>
       <div className="mt-5 pt-5">
-        <h1 className="display-5">Projects</h1>
+        <h1 className="display-5 text-uppercase">Projects</h1>
         <p className="mb-0">
           In this section you will find some projects of mine. I invite you to
           read.

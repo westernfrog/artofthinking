@@ -61,3 +61,11 @@ h6 {
 .bg-green {
   background: radial-gradient(circle at right, #b5d5c5, #b5d5c570);
 }
+.btn-shrink {
+  transform: scale(1);
+  transition: transform 100ms ease-in-out;
+}
+.btn-shrink:active {
+  transform: scale(0.98);
+  transition: transform 100ms ease-in-out;
+}
