@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Footer from "@/components/Footer";
 import Overview from "@/components/Overview";
+import Projects from "@/components/Projects";
 import Head from "next/head";
 import { useState, useEffect } from "react";
 
@@ -35,6 +36,9 @@ export default function Home() {
       </div>
       <div className="container my-4 my-lg-0">
         <About />
+        <hr />
+        <Projects />
+        <hr />
         <Footer />
       </div>
     </>

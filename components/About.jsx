@@ -1,19 +1,21 @@
 export default function About(params) {
   return (
     <>
-      <div className="row d-flex align-items-start">
+      <div className="row d-flex align-items-start justify-content-between">
         <div className="col-md-8">
-          <h2 className="mb-2">
-            pragya prateek<span className="ms-3">&rarr;</span>
+          <h1>
+            Pragya Prateek<span className="ms-3"></span>
             <p className="mb-0 fs-8">Based in Gurgaon, India.</p>
-          </h2>
-          <h6 className="opacity-75 text-general">Mental Health Counsellor</h6>
-          <h6 className="opacity-75 text-general">Expressive Arts Therapist</h6>
-          <h6 className="opacity-75 text-general">
+          </h1>
+          <h6 className="opacity-75 text-general mb-5 lh-base">
+            Mental Health Counsellor
+            <br />
+            Expressive Arts Therapist
+            <br />
             Content Writer And Creator
           </h6>
         </div>
-        <div className="col-md-4 my-3 ms-auto">
+        <div className="col-md-4 ms-auto">
           <p className="fs-7">
             I am a mental health professional involved in providing services
             such as parenting tips and advisory, social group counselling,
