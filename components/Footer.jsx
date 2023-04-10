@@ -11,7 +11,7 @@ export default function Footer(params) {
     <>
       <footer className="my-3">
         <p className="mb-0">
-          © Copyright {newYear} Thking Gray. All Rights Reserved
+          © Copyright {newYear} The Art of Thinking Gray. All Rights Reserved
         </p>
       </footer>
     </>
