@@ -38,7 +38,8 @@ export default function Home() {
         <About />
         <hr />
         <Projects />
-        <hr />
+      </div>
+      <div className="container">
         <Footer />
       </div>
     </>

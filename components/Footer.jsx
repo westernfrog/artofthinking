@@ -9,9 +9,9 @@ export default function Footer(params) {
 
   return (
     <>
-      <footer>
+      <footer className="my-3">
         <p className="mb-0">
-          © Copyright {newYear} The Art of Thinking Gray. All Rights Reserved
+          © Copyright {newYear} Thking Gray. All Rights Reserved
         </p>
       </footer>
     </>
