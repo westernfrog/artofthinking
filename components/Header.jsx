@@ -45,12 +45,12 @@ export default function Header() {
                 <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
                   {[
                     { href: "/", label: "Home" },
-                    { href: "/about", label: "About" },
                     { href: "/#blog", label: "Blog" },
                     { href: "/#projects", label: "Projects" },
+                    { href: "/gallery", label: "Gallery" },
                   ].map(({ href, label }, index) => (
                     <li className="nav-item" key={index}>
-                      <Link className="nav-link fs-1" href={href}>
+                      <Link className="nav-link fs-3" href={href}>
                         {label}
                       </Link>
                     </li>
@@ -65,30 +65,26 @@ export default function Header() {
               <ul className="navbar-nav mx-auto">
                 {[
                   { href: "/", label: "Home" },
-                  { href: "/about", label: "About" },
                   { href: "/#blog", label: "Blog" },
                   { href: "/#projects", label: "Projects" },
+                  { href: "/gallery", label: "Gallery" },
                 ].map(({ href, label }, index) => (
                   <li className="nav-item my-2" key={index}>
                     <Link className="nav-link" href={href}>
                       {label}
-                      <hr className="my-0" />
                     </Link>
                   </li>
                 ))}
               </ul>
               <div className="row d-flex align-items-center gap-3 my-2">
-                <div className="col">
-                  <i className="fa-solid fa-envelope"></i>
+                <div className="col opacity-75">
+                  <box-icon type="logo" name="gmail"></box-icon>
                 </div>
-                <div className="col">
-                  <i className="fa-brands fa-instagram"></i>
+                <div className="col opacity-75">
+                  <box-icon type="logo" name="instagram"></box-icon>
                 </div>
-                <div className="col">
-                  <i className="fa-brands fa-facebook"></i>
-                </div>
-                <div className="col">
-                  <i className="fa-solid fa-phone"></i>
+                <div className="col opacity-75">
+                  <box-icon name="phone"></box-icon>
                 </div>
               </div>
             </div>

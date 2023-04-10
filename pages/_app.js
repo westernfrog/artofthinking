@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
         src="https://kit.fontawesome.com/5818d7bece.js"
         crossorigin="anonymous"
       ></Script>
-
+      <Script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></Script>
       <NextUIProvider>
         <Component {...pageProps} />
       </NextUIProvider>
