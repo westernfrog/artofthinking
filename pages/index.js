@@ -39,11 +39,8 @@ export default function Home() {
         <About />
         <hr />
         <Projects />
-
         <Gallery />
-      </div>
-      <div className="container">
-        <Footer />
+        <hr />
       </div>
     </>
   );

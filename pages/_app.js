@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import { NextUIProvider } from "@nextui-org/react";
 import Script from "next/script";
 import Head from "next/head";
+import Footer from "@/components/Footer";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -27,6 +28,9 @@ export default function App({ Component, pageProps }) {
       <NextUIProvider>
         <Component {...pageProps} />
       </NextUIProvider>
+      <div className="container">
+        <Footer />
+      </div>
     </>
   );
 }

@@ -53,7 +53,7 @@ export default function Header() {
                 <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
                   {[
                     { href: "/", label: "Home" },
-                    { href: "/#blog", label: "Blog" },
+                    { href: "/blog", label: "Blog" },
                     { href: "/#projects", label: "Projects" },
                     { href: "/gallery", label: "Gallery" },
                   ].map(({ href, label }, index) => (
@@ -73,7 +73,7 @@ export default function Header() {
               <ul className="navbar-nav mx-auto">
                 {[
                   { href: "/", label: "Home" },
-                  { href: "/#blog", label: "Blog" },
+                  { href: "/blog", label: "Blog" },
                   { href: "/#projects", label: "Projects" },
                   { href: "/gallery", label: "Gallery" },
                 ].map(({ href, label }, index) => (
